@@ -3,6 +3,7 @@
  * variable mutation and type coercion
  */
 
+ /*
 var firstName = 'john';
 var age = 28;
 
@@ -31,7 +32,7 @@ console.log(firstName + ' ' + lastName);
 
 //Math operators
 
-
+/*
 var year, yearJohn, yearMark;
 now = 2018;
 ageJohn = 28;
@@ -54,13 +55,13 @@ console.log(typeof johnOlder);
 console.log(typeof ageJohn);
 console.log(typeof 'mar is older than john');
 
-
+*/
 
 /**
  * operator precedence
  */
 
-
+/*
 var now = 2018;
 var yearJohn = 1989;
 var fullAge = 18;
@@ -74,9 +75,11 @@ var ageJohn = now - yearJohn;
 var ageMark = 35;
 var average = (ageJohn + ageMark) / 2;
 console.log(average);
+*/
 
 // multiple assigments
 
+/*
 var x, y;
 x = y = (3 + 5) * 4 - 6;
 
@@ -92,13 +95,13 @@ console.log(x);
 x++;
 console.log(x);
 
-
+*/
 
 /***************************
  * Coding challenge
  ****************************/
 
-
+/*
 var johnBmi = 78 / (1.69 * 1.69);// wight/heigh^2
 var marksBmi = 92 / (1.95 * 1.95); // wight/heigh^2
 
@@ -108,7 +111,7 @@ console.log(' Is john\'s bmi greater than mark\'s ?' + bmi);
 
 // Solution
 
-
+/*
 var massMark = 78; //kg
 var heightMark = 1.69; // meters
 
@@ -120,13 +123,13 @@ var johnBMI = massJohn / (heightJohn * heightJohn);
 
 var totalBMI = markBMI > johnBMI
 console.log('Is marks BMI hight than john\'s ? ' + totalBMI)
-
+*/
 
 /**
  * If/else statements
  */
 
-
+/*
 var firstName = 'john';
 var civilStatus = 'married';
 
@@ -160,11 +163,13 @@ if (markBMI < johnBMI) {
   console.log(' John\'s BMI is higher than Marks\'s ' );
 }
 
+*/
 
 /***
  * Boolean logic
  */
 
+/*
 var firstName = 'john';
 var age = 107;
 
@@ -182,16 +187,18 @@ if (age >= 13 && age < 20) {
  * The ternary operator and switch statements
  */
 
-
+/*
 var firstName = ' john ';
 var age = 13;
 
 age >= 18 ? console.log(firstName + ' drinks beer. ') :
   console.log(firstName + 'drinks juice. ')
-*/
+
+  */
 
 //Switch stament
 
+/*
 var job = 'teacher';
 job = 'driver';
 job = 'designer';
@@ -212,7 +219,7 @@ switch (job) {
 }
 */
 
-
+/*
 var firstName = 'john';
 var age = 31;
 
@@ -230,6 +237,7 @@ switch(true) {
   console.log('john is a man!');
 }
 
+*/
 
 /**
  * Truthy and Falsy values and equality operators:
@@ -243,6 +251,7 @@ switch(true) {
  */
 
 //calculate the score for each team
+/*
 var john = (89 + 120 + 103) / 3; //ppg average
 
 var mike = (116 + 94 + 123) / 3; // ppg average
@@ -262,6 +271,8 @@ if (john > mike) {
 } else {
 	console.log(' Its a tie !!! ');
 }
+
+*/
 
 //calculate highest average score
 
