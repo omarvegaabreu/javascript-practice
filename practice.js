@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 /**
  * variable mutation and type coercion
  */
@@ -300,11 +300,12 @@ if (scoreJohn > scoreMike && scoreJohn > scoreMary) {
  * Fuctions
  */
 
- /*
+/*
 function calculateAge() {
   return 2018 - birthyear;
 }
 */
+/*
 var ageJohn = calculateAge(1990);
 var ageMike = calculateAge(1948);
 var ageJane = calculateAge(1969);
@@ -325,3 +326,107 @@ function yearsUntilRetirement(year, firstName) {
 yearsUntilRetirement(1990, ' John ')
 yearsUntilRetirement(1948, ' Mike ')
 yearsUntilRetirement(1990, ' Jane ')
+*/
+
+/****
+ * Fuction Statements and Expressions
+ */
+
+// Fuction declaration
+
+/*
+function whatDoYouDo(job, firstName) {
+   ' function block '
+ }
+ */
+
+/*
+var whatDoYouDo = function (job, firstName) {
+  switch (job) {
+    case 'teacher':
+      return firstName + ' teaches kids how to code. ';
+    case 'driver':
+      return firstName + ' Drives Uber in Miami. ';
+    case 'designer':
+      return firstName + ' Does beautifull dresses for hollywood stars! ';
+    default:
+      return firstName + ' Does something else ';
+   }
+ }
+console.log(whatDoYouDo('teacher', 'john'));
+console.log(whatDoYouDo('driver', 'Mike'));
+console.log(whatDoYouDo('designer', 'mary'));
+console.log(whatDoYouDo('carpenter', 'jose'));
+
+*/
+
+/***
+ * Arrays
+ */
+
+
+/*
+
+
+ //Initializa array
+var names = ['john', ' mark', ' jose'];// best practice to make arrays
+var years = new Array(1990, 1969, 1948); //just another way of doing arrays
+
+// Mutate array data
+names[1] = 'ben';// changing data in a specific index in the array.
+names[names.lenght] = 'Marry';// will assigned a new element to the array.
+console.log(names);
+console.log(names.length);
+
+//Dirrent data types
+var john = ['john', 'smith', 1990, 'teacher', false];
+
+//Methods that add element to the array.
+
+john.push('blue');// push methods will assign element to the end of the array.
+john.unshift('Mr');// will assign element to the beguining of the array.
+console.log(john);
+
+//Methods that delete element fromt he array.
+john.pop();//will remove the element from the end of the array.
+john.shift();//will remove the element from the beguining of the array.
+console.log(john);
+var isDesigner = john.indexOf('designer') === -1 ? 'designer is NOT in the array' :
+  'designer IS in the array';// indexOf can be used to see if an element is in the array.
+console.log(isDesigner);
+
+*/
+
+/***
+ * CODING CHALLENGE 2
+ */
+
+ /*
+function tipCalculator(bill) {
+  var percentage;
+  if (bill < 50) {
+    percentage = .2;
+  } else if (bill >= 50 && bill < 200) {
+    percentage = .15
+  } else {
+    percentage = .1;
+  }
+  return percentage * bill;
+}
+
+//console.log(tipCalculator(100));// to check if the function is working.
+
+/*
+var bills = [124, 48, 268];
+var tips = [tipCalculator(bills[0]),
+  tipCalculator(bills[1]),
+  tipCalculator(bills[2])
+];
+
+var finalValues = [bills[0] + tips[0],
+  bills[1] + tips[1],
+  bills[2] + tips[2]
+];
+
+console.log(tips, finalValues);
+*/
