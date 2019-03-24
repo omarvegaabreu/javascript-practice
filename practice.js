@@ -108,7 +108,7 @@ console.log(' Is john\'s bmi greater than mark\'s ?' + bmi);
 
 // Solution
 
-/*
+
 var massMark = 78; //kg
 var heightMark = 1.69; // meters
 
