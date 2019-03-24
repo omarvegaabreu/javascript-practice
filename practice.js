@@ -278,6 +278,7 @@ if (john > mike) {
 
 //
 
+/*
 var scoreJohn = (89 + 120 + 103) / 3;
 var scoreMike = (116 + 94 + 103) / 3;
 var scoreMary = (97 + 134 + 105) / 3;
@@ -293,3 +294,34 @@ if (scoreJohn > scoreMike && scoreJohn > scoreMary) {
 } else {
   console.log(' It\'s a tie!! ');
 }
+*/
+
+/***
+ * Fuctions
+ */
+
+ /*
+function calculateAge() {
+  return 2018 - birthyear;
+}
+*/
+var ageJohn = calculateAge(1990);
+var ageMike = calculateAge(1948);
+var ageJane = calculateAge(1969);
+
+// console.log(ageJohn, ageMike, ageJane)
+
+
+
+function yearsUntilRetirement(year, firstName) {
+  var age = calculateAge(year);
+  var retirement = 65 - age;
+
+  if (retirement > 0) {
+
+  }
+  console.log(firstName + ' retires in ' + retirement + ' years. ')
+}
+yearsUntilRetirement(1990, ' John ')
+yearsUntilRetirement(1948, ' Mike ')
+yearsUntilRetirement(1990, ' Jane ')
