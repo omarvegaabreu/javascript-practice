@@ -2,7 +2,7 @@
 /**
  * variable mutation and type coercion
  */
-/*
+
 var firstName = 'john';
 var age = 28;
 
@@ -120,7 +120,7 @@ var johnBMI = massJohn / (heightJohn * heightJohn);
 
 var totalBMI = markBMI > johnBMI
 console.log('Is marks BMI hight than john\'s ? ' + totalBMI)
-*/
+
 
 /**
  * If/else statements
@@ -142,9 +142,9 @@ if (isMarried) {
 } else {
   console.log(firstName + ' will hopefully marry soon :');
 }
-*/
 
-/*
+
+
 var massMark = 78; //kg
 var heightMark = 1.69; // meters
 
@@ -159,12 +159,12 @@ if (markBMI < johnBMI) {
 } else {
   console.log(' John\'s BMI is higher than Marks\'s ' );
 }
-*/
+
 
 /***
  * Boolean logic
  */
-/*
+
 var firstName = 'john';
 var age = 107;
 
@@ -182,7 +182,7 @@ if (age >= 13 && age < 20) {
  * The ternary operator and switch statements
  */
 
-/*
+
 var firstName = ' john ';
 var age = 13;
 
@@ -191,7 +191,7 @@ age >= 18 ? console.log(firstName + ' drinks beer. ') :
 */
 
 //Switch stament
-/*
+
 var job = 'teacher';
 job = 'driver';
 job = 'designer';
@@ -212,7 +212,7 @@ switch (job) {
 }
 */
 
-/*
+
 var firstName = 'john';
 var age = 31;
 
@@ -229,7 +229,7 @@ switch(true) {
   default: 
   console.log('john is a man!');
 }
-*/
+
 
 /**
  * Truthy and Falsy values and equality operators:
