@@ -3,7 +3,7 @@
  * variable mutation and type coercion
  */
 
- /*
+/*
 var firstName = 'john';
 var age = 28;
 
@@ -257,7 +257,7 @@ var john = (89 + 120 + 103) / 3; //ppg average
 var mike = (116 + 94 + 123) / 3; // ppg average
 
 var mary = (97 + 134 + 105) / 3; //ppg average
-
+ 
 if (john > mike) {
 	console.log(' john is the winner, with an average of ' + john);
 } else if (mike > john) {
@@ -277,3 +277,19 @@ if (john > mike) {
 //calculate highest average score
 
 //
+
+var scoreJohn = (89 + 120 + 103) / 3;
+var scoreMike = (116 + 94 + 103) / 3;
+var scoreMary = (97 + 134 + 105) / 3;
+
+console.log(' John\'s score is ' + scoreJohn + , ' Mary\'s score is ' + scoreMary + ' Mike\s score is ' +  scoreMike);
+
+if (scoreJohn > scoreMike && scoreJohn > scoreMary) {
+  console.log(' John\'s team wins the game! With ' + scoreJohn + ' point\'s ')
+} else if (scoreMike > scoreJohn && scoreMike > scoreMary) {
+  console.log(' Mikes\'s team wins the game! With ' + scoreMike + ' point\'s ')
+} else if (scoreMary > scoreJohn && scoreMary > scoreMike) {
+   console.log(' Mary\'s team wins the game! With ' + scoreMary + ' point\'s ')
+} else {
+  console.log(' It\'s a tie!! ');
+}
