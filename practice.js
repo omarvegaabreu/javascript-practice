@@ -2,7 +2,7 @@
 /**
  * variable mutation and type coercion
  */
-
+/*
 var firstName = 'john';
 var age = 28;
 
