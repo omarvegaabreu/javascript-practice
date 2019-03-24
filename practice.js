@@ -126,7 +126,7 @@ console.log('Is marks BMI hight than john\'s ? ' + totalBMI)
  * If/else statements
  */
 
-/*
+
 var firstName = 'john';
 var civilStatus = 'married';
 
