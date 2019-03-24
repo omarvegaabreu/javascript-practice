@@ -3,26 +3,27 @@
  * variable mutation and type coercion
  */
 
-/*var firstName = 'john';
+var firstName = 'john';
 var age = 28;
 
 console.log(firstName + ' ' + age);
-*/
+
 
 //Type coercion
-/*var job, isMarried;
+
+var job, isMarried;
 job = 'teacher';
 isMarried = false;
 
 alert(firstName + ' is a ' + 'year old ' + job + '. Is he married? ' + isMarried);
 
-// variable mutation
+variable mutation
 
 age = 'twenty eight';
 
 var lastName = prompt(' what is his last name?');
 console.log(firstName + ' ' + lastName);
-*/
+
 
 /**
  * Basic operators
@@ -30,7 +31,7 @@ console.log(firstName + ' ' + lastName);
 
 //Math operators
 
-/*
+
 var year, yearJohn, yearMark;
 now = 2018;
 ageJohn = 28;
@@ -42,9 +43,9 @@ console.log(yearJohn);
 console.log(now + 2);
 console.log(now * 2);
 console.log(now / 10);
-*/
 
-/*
+
+
 //logical operators
 var johnOlder = ageJohn < ageMark;
 console.log(johnOlder);
@@ -59,7 +60,7 @@ console.log(typeof 'mar is older than john');
  * operator precedence
  */
 
-/*
+
 var now = 2018;
 var yearJohn = 1989;
 var fullAge = 18;
@@ -91,13 +92,13 @@ console.log(x);
 x++;
 console.log(x);
 
-*/
+
 
 /***************************
  * Coding challenge
  ****************************/
 
-/* 
+
 var johnBmi = 78 / (1.69 * 1.69);// wight/heigh^2
 var marksBmi = 92 / (1.95 * 1.95); // wight/heigh^2
 
