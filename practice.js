@@ -401,7 +401,7 @@ console.log(isDesigner);
  * CODING CHALLENGE 2
  */
 
- /*
+/*
 function tipCalculator(bill) {
   var percentage;
   if (bill < 50) {
@@ -430,3 +430,62 @@ var finalValues = [bills[0] + tips[0],
 
 console.log(tips, finalValues);
 */
+
+/*****
+ * Object and properties
+ */
+//Avoid String, Number, and Boolean objects. They complicate your code and slow down execution speed.
+//When a JavaScript variable is declared with the keyword "new", the variable is created as an object:
+
+//Object literal / / declaring object
+
+/*
+var john = {
+  firstName: 'john',
+  lastName: 'smith',
+  birthYear: 1990,
+  family: ['Jane', 'Mark', 'Bob', 'Emily'],
+  job: 'teacher',
+  isMarried: false
+};
+// how to retreve data from an object
+console.log(john.firstName); // dot notation
+console.log(john['lastName']); //like an array, but must be written in string.
+var x = 'birthYear'; // not common practice, but can be used sometimes.
+console.log(john[x]);
+// how to modify data in an object
+
+john.job = 'designer';
+john['isMarried'] = 'true';
+console.log(john);
+// new Object syntax
+var jane = new Object(); // Object needs to have capital O
+jane.firstName = ' jane ';
+jane.birthYear = 1969;
+jane['last name'] = 'smith'; //brackets can be used as well
+console.log(jane);
+*/
+
+/***
+ * Object and methods
+ */
+// var john = {
+//   firstName: 'john',
+//   lastName: 'smith',
+//   birthYear: 1990,
+//   family: ['jane', 'mark', 'bob', 'Emely'],
+//   job: 'teacher',
+//   isMarried: false,
+//   calcAge: function (birthYear) {
+//     return 2018 - this.birthYear
+//   }
+// };
+
+// console.log(john.calcAge());
+
+// var logo = document.querySelector('#hplogo');
+// setInterval(function () {
+//   logo.with += 5;
+// },100 )
+
+
