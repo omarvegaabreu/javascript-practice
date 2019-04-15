@@ -1,3 +1,5 @@
+//mistake you can use i on everyloop because you are not nesting the loops... !
+
 console.log(" 'FOR LOOP' PRINT ALL THE NUMBERS BETWEEN -10 AND 19");
 
 for (var i = -10; i <= 19;i++ ) {
