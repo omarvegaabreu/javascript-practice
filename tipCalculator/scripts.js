@@ -25,17 +25,22 @@ function tipCalculator(bill) {
   } else {
     percentage = 0.10;
   }
-  return Math.floor(percentage * bill);
+  return (percentage * bill);
 }
 
 var bills = [124, 48, 268];
-var tips = [tipCalculator(Math.floor(bills[0])),
-  tipCalculator(Math.floor(bills[1])),
-  tipCalculator(Math.floor(bills[2]))
+var tips = [tipCalculator(bills[0]),
+  tipCalculator(bills[1]),
+  tipCalculator(bills[2])
 ];
 
-console.log(tips);
-console.log(tips);
+
+
+var finalBill =  [bills[0] + tips[0],
+                  bills[1] + tips[1],
+                  bills[2] + tips[2]];
+                  
+console.log(finalBill);
 
 
 
