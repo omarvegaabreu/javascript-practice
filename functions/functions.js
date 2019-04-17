@@ -75,17 +75,23 @@ function calculateAge(birthYear) {
   return 2018 - birthYear;
 }
 
-var ageJohn = calculateAge = (1990);
-var ageMike = calculateAge = (1948);
-var ageJane = calculateAge = (1969);
+var ageJohn = calculateAge(1990);
+var ageMike = calculateAge(1948);
+var ageJane = calculateAge(1969);
 
-alert(ageJane);
-alert(ageMike);
-alert(ageJohn);
+console.log(ageJane, ageJohn, ageMike);
+
 
 function yearsUntilRetirement(year, firsName) {
   var age = calculateAge(year);
-  var retirement = 65 age;
-  console.log(firsName + 'retires in ' + retirement + 'years. ');
+  var retirement = 65 - age;
+  if (retirement < 0) {
+    console.log(firsName + ' is all ready retired. ');
+  } else {
+    console.log(firsName + 'retires in ' + retirement + ' years. ');
+  }
+  
 }
-yearsUntilRetirement(1990 'john');
+yearsUntilRetirement(1990, 'john');
+yearsUntilRetirement(1969, 'Mike');
+yearsUntilRetirement(1948, 'jane');
