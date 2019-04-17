@@ -14,7 +14,7 @@
 
   /**
    * Function expression:
-   * you assign a function to a variable 
+   * expression will always return a value, or an immediate result. 
    */
 
 
@@ -35,4 +35,6 @@ var whatDoYouDo = function (job, firstName) {
 console.log (whatDoYouDo('teacher', 'John'));
 console.log (whatDoYouDo('driver', 'Jane'));
 console.log (whatDoYouDo('designer', 'Jose'));
-console.log (whatDoYouDo('retired', 'Mike'));
+console.log(whatDoYouDo('retired', 'Mike'));
+
+
