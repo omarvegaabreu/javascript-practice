@@ -88,7 +88,7 @@ function yearsUntilRetirement(year, firsName) {
   if (retirement < 0) {
     console.log(firsName + ' is all ready retired. ');
   } else {
-    console.log(firsName + 'retires in ' + retirement + ' years. ');
+    console.log(firsName + ' retires in ' + retirement + ' years. ');
   }
   
 }
