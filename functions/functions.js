@@ -64,9 +64,21 @@ function factorial(num) {
  * replace "-" with "_" 
  */
 
-function kebabToSnake(str) {
-   //replace all '-' with '_'
-  var newStr = str.replace(/-/g, "_");
-  //return str
-  return newStr;
- }
+// function kebabToSnake(str) {
+//    //replace all '-' with '_'
+//   var newStr = str.replace(/-/g, "_");
+//   //return str
+//   return newStr;
+//  }
+
+function calculateAge(birthYear) {
+  return 2018 - birthYear;
+}
+
+var ageJohn = calculateAge = (1990);
+var ageMike = calculateAge = (1948);
+var ageJane = calculateAge = (1969);
+
+alert(ageJane);
+alert(ageMike);
+alert(ageJohn);
