@@ -1,4 +1,5 @@
 
+// Object literal
 var john = {
   firstName: 'John',
   lastName: 'Smith',
@@ -22,6 +23,19 @@ console.log(john[x]);
  * Mutating properties inside an object
  */
 
-john.job = 'designer';
+john.job = 'designer';// will change job from teacher to designer
+john['isMarried'] = true;// will !== is married, anothe way of mutating data
+console.log(john);//will log john to console with changes.
 
+/**
+ * New object syntax
+ * 
+ * Just a more complicated way of creating object, supposed minor gains in speed..
+ * 
+ */
+var jane = new Object();
+jane.name = 'jane';
+jane.birthYear = 1969;
+jane['lastName'] = 'smith';// just to show it works the same as dot notation
+console.log(jane);
 
