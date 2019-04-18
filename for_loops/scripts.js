@@ -31,8 +31,14 @@
 //   }
 // }
 
-for (var i = 0; i <= 10; i++) {
-  console.log(i);
+// for (var i = 0; i <= 10; i++) {
+//   console.log(i);
+// }
+
+var john = ['jose', 'maria ', 'minerva ', 24, true, false, 'ok'];
+
+for (i = 0; i < john.length; i++) {
+  console.log(john[i]);
 }
 
 
