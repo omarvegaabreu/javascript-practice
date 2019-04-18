@@ -35,28 +35,30 @@
 //   console.log(i);
 // }
 
-var john = ['jose', 'maria ', 'minerva ', 24, true, false, 'ok'];
+var john = ['jose', 'maria ', 'number comes next ', 24,false];
 
-for (i = 0; i < john.length; i++) {
+for (var i = 0; i < john.length; i++) {
   console.log(john[i]);
 }
 
-for (i = 0; i < john.length; i++) {
+for (var i = 0; i < john.length; i++) {
   //using conditionals inside a loop
   if (typeof john[i] !== 'string') continue; 
   //continue will not print what ever you ask and will continue with the loop
   console.log(john[i]);
 }
 
-for (i = 0; i < john.length; i++) {
+for ( var i = 0; i < john.length; i++) {
   //using conditionals inside a loop
   if (typeof john[i] !== 'string') break;
   //break will not print what ever you ask and will break out of loop
   console.log(john[i]);
 }
 //will loop backwards
-for (i > 0; i = john.length; i--) {
-  console.log(i);
+for (var i = john.length ; i >= 0; i--) {
+ 
+  john = ['jose', 'maria ', 'number comes next ', 24, false,'backwards'];
+  console.log(john[i]);
 }
 
 
