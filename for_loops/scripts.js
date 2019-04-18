@@ -44,7 +44,7 @@ for (var i = 0; i < john.length; i++) {
 for (var i = 0; i < john.length; i++) {
   //using conditionals inside a loop
   if (typeof john[i] !== 'string') continue; 
-  //continue will not print what ever you ask and will continue with the loop
+  //continue will not print what ever you ask and will co ntinue with the loop
   console.log(john[i]);
 }
 
