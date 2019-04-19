@@ -117,21 +117,28 @@ test(10, 40);
  */
 
  
-function isEven(num) {
-  if (num % 2 === 0) {
-    return true;
-  }
-  else {
-    return false;
-  }
-};
-isEven(5);
+// function isEven(num) {
+//   if (num % 2 === 0) {
+//     return true;
+//   }
+//   else {
+//     return false;
+//   }
+// };
+// isEven(5);
 
-function factorial(num) {
-  for (var i = 0; i <= num; i++);
-  console.log(num);
+// function factorial(num) {
+//   //define a result variable
+//   var result=1;
+//   // return the result variable
+//   for (var i = 2; i <= num; i++) {
+//     result = result * i;
+//   }
+//   return result;
+//   //calculate factorial ans store value in result
+//   //return the result variable
+// }
 
-
-};
-
-factorial(10);
+fucntion kebabToSnake(str) {
+  
+}
