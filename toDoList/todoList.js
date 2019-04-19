@@ -1,7 +1,13 @@
-var todos = [];
+var todos = ['buy a new turtle'];
 
 var input = prompt("What would you like to do ?");
 
-if (input === "list") {
-  console.log(todos);
-}
+while (input !== "quit") {
+      if (input === "list") {
+        console.log(todos);
+      } else if (input === "new") {
+        var newTodo = prompt('Enter new todo');
+        todos.push(newTodo);
+      }
+  input = prompt("What would you like to do ?");
+  };
