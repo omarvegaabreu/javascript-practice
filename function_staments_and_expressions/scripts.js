@@ -17,24 +17,22 @@
    * expression will always return a value, or an immediate result. 
    */
 
-
-var whatDoYouDo = function (job, firstName) {
-  
+const whatDoYouDo = function (job, firstName) {
   switch (job) {
     case 'teacher':
-      return firstName + ' teaches people how to code'; 
+      return firstName + ' Teaches kids how to code';
     case 'driver':
-      return firstName + ' drives uber part time';
+      return firstName + ' Drives uber part time ';
     case 'designer':
-      return firstName + ' builds awesome websites.';
+      return firstName + ' Builds awesome websites! ';
     default:
-      return firstName + ' does something else. ';     
+      return  'I don\'t know this person.';
   }
- 
-}
-console.log (whatDoYouDo('teacher', 'John'));
-console.log (whatDoYouDo('driver', 'Jane'));
-console.log (whatDoYouDo('designer', 'Jose'));
-console.log(whatDoYouDo('retired', 'Mike'));
+};
+const jose = whatDoYouDo('teacher', 'Jose');
+const ana = whatDoYouDo('driver', 'Ana');
+const josefa = whatDoYouDo('designer', 'Josefa');
+const james = whatDoYouDo('homeless', 'James');
 
+console.log(jose, ana, josefa, james);
 

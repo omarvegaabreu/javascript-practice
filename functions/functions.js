@@ -18,22 +18,22 @@
 // const mikeRetires = retirement(ageMike,retirementAge);
 // const janeRetires = retirement(ageJane, retirementAge);
 
-function calculateAge(birthYear) {
-  return 2018 - birthYear;
-}
-const ageJohn = calculateAge(1990);
-const ageMike = calculateAge(1948);
-const ageJane = calculateAge(1969);
+// function calculateAge(birthYear) {
+//   return 2018 - birthYear;
+// }
+// const ageJohn = calculateAge(1990);
+// const ageMike = calculateAge(1948);
+// const ageJane = calculateAge(1969);
 
-console.log(ageJohn, ageJane, ageMike);
+// console.log(ageJohn, ageJane, ageMike);
 
-function yearsUntilRetirement(year, firstName) {
-  const age = calculateAge(year);
-  const retirement? = 65 - age;
-  retirement < 65 ?
-}
-yearsUntilRetirement(1990,'John');
-yearsUntilRetirement(1948,'Mike');
-yearsUntilRetirement(1969,'Jane');
+// function yearsUntilRetirement(year, firstName) {
+//   const age = calculateAge(year);
+//   const retirement? = 65 - age;
+//   retirement < 65 ?
+// }
+// yearsUntilRetirement(1990,'John');
+// yearsUntilRetirement(1948,'Mike');
+// yearsUntilRetirement(1969,'Jane');
 
 
