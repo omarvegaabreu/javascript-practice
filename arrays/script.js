@@ -40,12 +40,21 @@ const hobbies = ["Sports", "Cooking"];
 //for loop arrays
 
 //this will loop through the bobbies array and save the files to hobby variable
-for (let hobby of hobbies) {
-  console.log(hobby);
-}
+//for off
+// for (let hobby of hobbies) {
+//   console.log(hobby);
+// }
 
-const data = ["sports", "cooking", true, 24];
+// const data = ["sports", "cooking", true, 24];
 
-for (let loopArray of data) {
-  console.log(loopArray);
-}
+// for (let loopArray of data) {
+//   console.log(loopArray);
+// }
+
+// const methods = ["word", "another", "thing"];
+// console.log(methods.map(methods => "hobby: " + methods));
+// // console.log(methods);
+
+// // console.log(methods.map(methods + "jose"));
+// hobbies.push("programming");
+// console.log(hobbies);
