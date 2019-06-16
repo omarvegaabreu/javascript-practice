@@ -28,9 +28,24 @@ console.log(isDesigner);
 */
 // var numbers = [22, 67, 33, 96, 88];
 
-// console.log(numbers[numbers.length]); 
+// console.log(numbers[numbers.length]);
 // it will print all the array numbers and it will print the number of elements in the array 5.
-// i was wrong lol 
+// i was wrong lol \
 
+/**
+ * arrays and methods
+ */
+const hobbies = ["Sports", "Cooking"];
 
+//for loop arrays
 
+//this will loop through the bobbies array and save the files to hobby variable
+for (let hobby of hobbies) {
+  console.log(hobby);
+}
+
+const data = ["sports", "cooking", true, 24];
+
+for (let loopArray of data) {
+  console.log(loopArray);
+}
